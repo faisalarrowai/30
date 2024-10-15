@@ -1,3 +1,53 @@
 {
-  "activeAgent": false
+  "activeAgent": false,
+  "currentLayout": {
+    "grid": {
+      "root": {
+        "type": "branch",
+        "data": [
+          {
+            "type": "leaf",
+            "data": {
+              "views": [
+                "Code"
+              ],
+              "activeView": "Code",
+              "id": "1"
+            },
+            "size": 607.6666564941406
+          },
+          {
+            "type": "leaf",
+            "data": {
+              "views": [
+                "Terminal-1728974700568"
+              ],
+              "activeView": "Terminal-1728974700568",
+              "id": "3"
+            },
+            "size": 672.3333435058594
+          }
+        ],
+        "size": 612
+      },
+      "width": 1280,
+      "height": 612,
+      "orientation": "HORIZONTAL"
+    },
+    "panels": {
+      "Code": {
+        "id": "Code",
+        "contentComponent": "Code",
+        "title": "Code",
+        "renderer": "always"
+      },
+      "Terminal-1728974700568": {
+        "id": "Terminal-1728974700568",
+        "contentComponent": "ProjectSettings",
+        "title": "ProjectSettings",
+        "renderer": "always"
+      }
+    },
+    "activeGroup": "1"
+  }
 }
