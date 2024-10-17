@@ -54,7 +54,7 @@ usage:
   appUse:
     prerunsteps:
       - shell:
-          command: npm run start
+          command: npm run dev
     agents:
       - codebol_sildes_generator
     layout: basic
